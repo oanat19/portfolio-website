@@ -102,6 +102,7 @@ a:active {
 }
 
 .button.contact {
+  display: inline-block;
   background-color: transparent;
   color: #EFD234;
   text-transform: uppercase;
@@ -112,9 +113,8 @@ a:active {
   background-color: #EFD234;
   color: #000000;
 }
-footer {
-  color: #ffffff;
-}
+
+
 /*Layout styling*/
 .container {
   padding: 0 15px;
@@ -202,4 +202,7 @@ main {
 }
 .social>ul>li {
   display: inline-block;
+}
+.copyright {
+  text-align: center;
 }
