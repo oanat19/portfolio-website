@@ -206,3 +206,34 @@ main {
 .copyright {
   text-align: center;
 }
+
+#about {
+  padding: 20px 0;
+  display: inline-block;
+  width: 100%;
+}
+#about h1 {
+  text-align: center;
+}
+#divino {
+  background-color: #ffffff;
+  color: #2D2E30;
+  padding: 220px 10px 10px 10px;
+  display: inline-block;
+  width: 100%;
+}
+.sketches {
+  display: inline-block;
+  width: 100%;
+  margin: 10px;
+}
+.thanks {
+  text-align: center;
+}
+#ido {
+  background-color: #ffffff;
+  color: #2D2E30;
+  padding: 220px 10px 10px 10px;
+  display: inline-block;
+  width: 100%;
+}
