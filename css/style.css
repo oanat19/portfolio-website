@@ -4,9 +4,26 @@ Primary Color (MediumGrey): #2D2E30;
 Secondary Colors (White): #FFFFFF; (DarkGrey): #212124;
 Accent Color(Yellow): #EFD234;
 */
+header {
+  text-align: center;
+  background-color: #212124;
+  padding: 20px 0;
+  border-bottom: 2px solid #ffffff;
+  position: fixed;
+  width: 100%;
+  -webkit-box-shadow: 0px 11px 10px 0px rgba(50, 50, 50, 0.75);
+  -moz-box-shadow: 0px 11px 10px 0px rgba(50, 50, 50, 0.75);
+  box-shadow: 0px 11px 10px 0px rgba(50, 50, 50, 0.75);
+}
+
+* {
+  box-sizing: border-box;
+}
+
 body {
   font-family: 'Comfortaa', sans-serif;
 }
+
 body {
   background-color: #2D2E30;
   font-family: 'Comfortaa', sans-serif;
@@ -19,8 +36,9 @@ body {
 h1, h2, h3, h4 {
   line-height: 1.4;
 }
+
 h1 {
-  font-size: 2.25em;
+  font-size: 1.95em;
   font-weight: 700;
 }
 
@@ -33,10 +51,12 @@ h3 {
   font-size: 1.55em;
   font-weight: 400;
 }
+
 h4 {
   font-size: 1.35em;
   font-weight: 400;
 }
+
 img {
   width: 100%;
 }
@@ -45,18 +65,20 @@ a {
   color: #ffffff;
   text-decoration: none;
 }
+
 a:visited {
   color: #959191;
 }
+
 a:hover,
 a:focus {
   color: #EFD234;
   text-decoration: underline;
 }
+
 a:active {
   color: #ffffff;
 }
-
 
 .button {
   display: inline-block;
@@ -68,21 +90,116 @@ a:active {
   border-bottom: 2px solid #EFD234;
   transition: 0.2s opacity;
 }
+
 .button:hover {
   opacity: 0.8;
   text-decoration: none;
 }
-.button:visited{
-  background-color: rgba(239,210,52,0.2);
+
+.button:visited {
+  background-color: rgba(239, 210, 52, 0.2);
   color: #2D2E30;
 }
-.button.contact{
+
+.button.contact {
   background-color: transparent;
   color: #EFD234;
   text-transform: uppercase;
   border: 2px solid #EFD234;
 }
+
 .button.contact:hover {
   background-color: #EFD234;
   color: #000000;
+}
+footer {
+  color: #ffffff;
+}
+/*Layout styling*/
+.container {
+  padding: 0 15px;
+}
+
+.row {
+  margin: 25px 0;
+}
+
+#work .row {
+  padding-bottom: 25px;
+  border-bottom: 1px solid #ffffff;
+}
+
+#hero h1 {
+  text-align: center;
+}
+
+.logo {
+  max-width: 250px;
+  padding: 10px o;
+}
+
+nav>ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav>ul>li {
+  display: inline-block;
+}
+
+nav>ul>li>a {
+  padding: 0 10px;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+nav>ul>li>a:visited {
+  color: #959191;
+}
+
+nav>ul>li>a:hover,
+nav>ul>li>a:focus {
+  color: #EFD234;
+}
+
+nav>ul>li>a:active {
+  color: #ffffff;
+}
+
+nav {
+  display: inline-block;
+  width: 100%;
+}
+
+#hero {
+  background-color: #212124;
+  padding: 20px 0;
+  display: inline-block;
+  width: 100%;
+}
+
+main {
+  padding-top: 209px;
+}
+
+#work h2 {
+  text-align: center;
+}
+
+#contact h2 {
+  text-align: center;
+}
+
+#contact {
+  background-color: #212124;
+  display: inline-block;
+  width: 100%;
+}
+.social>ul {
+  list-style-type: none;
+  padding: 0;
+}
+.social>ul>li {
+  display: inline-block;
 }
