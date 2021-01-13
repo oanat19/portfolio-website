@@ -114,7 +114,6 @@ a:active {
   color: #000000;
 }
 
-
 /*Layout styling*/
 .container {
   padding: 0 15px;
@@ -196,13 +195,16 @@ main {
   display: inline-block;
   width: 100%;
 }
+
 .social>ul {
   list-style-type: none;
   padding: 0;
 }
+
 .social>ul>li {
   display: inline-block;
 }
+
 .copyright {
   text-align: center;
 }
@@ -212,9 +214,11 @@ main {
   display: inline-block;
   width: 100%;
 }
+
 #about h1 {
   text-align: center;
 }
+
 #divino {
   background-color: #ffffff;
   color: #2D2E30;
@@ -222,14 +226,17 @@ main {
   display: inline-block;
   width: 100%;
 }
+
 .sketches {
   display: inline-block;
   width: 100%;
   margin: 10px;
 }
+
 .thanks {
   text-align: center;
 }
+
 #ido {
   background-color: #ffffff;
   color: #2D2E30;
@@ -237,3 +244,66 @@ main {
   display: inline-block;
   width: 100%;
 }
+svg {
+  width: 35px;
+  height: auto;
+}
+
+/* ==============================
+Medium devices (640px and larger)
+================================= */
+@media only screen and (min-width: 640px) {
+  header {
+    text-align: unset;
+    padding: 20px 0 13px;
+  }
+
+  nav {
+    width: auto;
+    float: right margin-top: 4px;
+  }
+  main {
+    padding-top: 99px;
+  }
+  body {
+    font-size: 18px;
+  }
+  #hero {
+    text-align: center;
+  }
+  #hero span {
+  display: block;
+}
+.col-md-6 {
+  width: 50%;
+}
+[class*="col-"] {
+  float: left;
+  padding: 10px;
+}
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+#about h3 {
+  margin-top: 0;
+}
+
+}
+
+/* ==============================
+Large devices (1024px or larger)
+================================= */
+@media only screen and (min-width: 1024px) {
+  .container {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+/* ==============================
+X-large devices (1440px or larger)
+================================= */
+@media only screen and (min-width: 1440px) {}
