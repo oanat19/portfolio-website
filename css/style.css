@@ -310,7 +310,7 @@ Medium devices (640px and larger)
   }
 
   main {
-    padding-top: 112px;
+    padding-top: 103px;
   }
 
   body {
@@ -365,11 +365,18 @@ Medium devices (640px and larger)
   margin-top: 0;
 }
 
-main {
-  padding-top: 120px;
-}
+
 .skills {
   padding-top: 30px;
+}
+
+.tools>ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.tools>ul>li {
+  display: inline-block;
 }
 
 
