@@ -224,7 +224,6 @@ main {
 #divino {
 	background-color: #ffffff;
 	color: #2d2e30;
-	padding: 220px 10px 10px 10px;
 	display: inline-block;
 	width: 100%;
 }
@@ -392,12 +391,13 @@ Medium devices (640px and larger)
 	}
 }
 
+
 /* ==============================
 Large devices (1024px or larger)
 ================================= */
 @media only screen and (min-width: 1024px) {
 	.container {
-		max-width: 2200px;
+		max-width: 1600px;
 		margin-left: auto;
 		margin-right: auto;
 	}
@@ -436,7 +436,7 @@ Large devices (1024px or larger)
 	}
 
 	main {
-		padding-top: 104px;
+		padding-top: 103px;
 	}
 
 	.skills {
