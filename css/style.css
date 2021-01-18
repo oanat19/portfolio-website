@@ -227,6 +227,11 @@ main {
 	display: inline-block;
 	width: 100%;
 }
+#mynotebook {
+	background-color: #2D2E30;
+	display: inline-block;
+	width: 100%;
+}
 
 .sketches {
 	display: inline-block;
