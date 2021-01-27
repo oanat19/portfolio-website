@@ -252,6 +252,12 @@ main {
 	width: 100%;
 }
 
+#chatty {
+	background-color: #2D2E30;
+	display: inline-block;
+	width: 100%;
+}
+
 .sketches {
 	display: inline-block;
 	width: 100%;
