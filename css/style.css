@@ -240,6 +240,12 @@ main {
 	width: 100%;
 }
 
+#ido {
+	background-color: #2D2E30;
+	display: inline-block;
+	width: 100%;
+}
+
 .sketches {
 	display: inline-block;
 	width: 100%;
@@ -250,13 +256,7 @@ main {
 	text-align: center;
 }
 
-#ido {
-	background-color: #ffffff;
-	color: #2d2e30;
-	padding: 220px 10px 10px 10px;
-	display: inline-block;
-	width: 100%;
-}
+
 
 svg {
 	width: 75px;
