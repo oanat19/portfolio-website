@@ -14,9 +14,9 @@ header {
 	border-bottom: 2px solid #ffffff;
 	position: fixed;
 	width: 100%;
-	-webkit-box-shadow: 0px 11px 10px 0px rgba(50, 50, 50, 0.75);
-	-moz-box-shadow: 0px 11px 10px 0px rgba(50, 50, 50, 0.75);
-	box-shadow: 0px 11px 10px 0px rgba(50, 50, 50, 0.75);
+	-webkit-box-shadow: 0px 6px 5px 0px rgba(50, 50, 50, 0.75);
+	-moz-box-shadow: 0px 6px 15px 0px rgba(50, 50, 50, 0.75);
+	box-shadow: 0px 6px 5px 0px rgba(50, 50, 50, 0.75);
 }
 
 * {
@@ -72,6 +72,7 @@ h5 {
 img {
 	width: 100%;
 }
+
 a {
 	color: #ffffff;
 	text-decoration: none;
@@ -293,10 +294,14 @@ main {
 	width: 100%;
 }
 
-#photo {
-	background-color: #2d2e30;
-	display: inline-block;
-	width: 100%;
+.project-img{
+	-webkit-box-shadow: 0px 7px 6px 3px rgba(0, 0, 0, 0.10);
+	-moz-box-shadow: 0px 7px 6px 3px rgba(0, 0, 0, 0.10);
+	box-shadow: 0px 7px 6px 3px rgba(0, 0, 0, 0.10);
+}
+
+.project {
+border: 1px solid #ffffff;
 }
 
 .sketches {
@@ -345,6 +350,16 @@ svg {
 /*.grid-item--width2 {
 	width: calc(100% / 2); */
 
+	#photo {
+		background-color: #2d2e30;
+		display: inline-block;
+		width: 100%;
+	}
+
+	.grid{
+		display: inline-block;
+		width: 100%;
+	}
 
 /* ==============================
 Medium devices (640px and larger)
@@ -479,6 +494,21 @@ Medium devices (640px and larger)
 	max-height: 250px;
 }
 
+/* * masonry grid */
+/* fluid 5 columns */
+.grid-item {
+	background: #2D2E30;
+	/* height: 200px; */
+	padding: 5px;
+}
+.grid-sizer,
+.grid-item {
+	width: calc(100% / 3);
+}
+/* 3 columns */
+/* .grid-item--width3 {
+	/* width: calc(100% / 3); */
+
 /* ==============================
 Large devices (1024px or larger)
 ================================= */
@@ -547,7 +577,7 @@ Large devices (1024px or larger)
 	}
 
 	main {
-		padding-top: 103px;
+		padding-top: 109px;
 	}
 
 	.skills {
