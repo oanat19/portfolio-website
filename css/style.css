@@ -231,6 +231,7 @@ main {
 
 #contact {
 	background-color: #212124;
+	border-top: 2px solid #ffffff;
 	display: inline-block;
 	width: 100%;
 }
