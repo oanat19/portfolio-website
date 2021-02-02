@@ -360,9 +360,11 @@ svg {
 		display: inline-block;
 		width: 100%;
 	}
+
 .video-container{
-	padding: 30px;
-	margin: 130px;
+	padding: 10px;
+	margin: 35px;
+	border: 1px solid #ffffff;
 }
 
 /* ==============================
@@ -515,6 +517,7 @@ Medium devices (640px and larger)
 /* .grid-item--width3 {
 	/* width: calc(100% / 3); */
 
+
 /* ==============================
 Large devices (1024px or larger)
 ================================= */
@@ -618,6 +621,7 @@ Large devices (1024px or larger)
 /* 3 columns */
 /* .grid-item--width3 {
 	/* width: calc(100% / 3); */
+
 
 
 /* ==============================
