@@ -218,7 +218,7 @@ nav > ul > li > a:active {
 }
 
 main {
-	padding-top: 75px;
+	padding-top: 79px;
 }
 
 #work h2 {
@@ -324,9 +324,9 @@ svg {
 	height: auto;
 }
 
-
 .yellow {
 	color: #efd234;
+
 }
 .center {
 	text-align: center;
@@ -360,11 +360,17 @@ svg {
 		display: inline-block;
 		width: 100%;
 	}
+.video-container{
+	padding: 30px;
+	margin: 130px;
+}
 
 /* ==============================
 Medium devices (640px and larger)
 ================================= */
+
 @media only screen and (min-width: 640px) {
+
 	.centerMe {
 		text-align: center;
 	}
@@ -397,7 +403,7 @@ Medium devices (640px and larger)
 	}
 
 	main {
-		padding-top: 103px;
+		padding-top: 109px;
 	}
 
 	body {
