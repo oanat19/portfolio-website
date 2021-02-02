@@ -126,6 +126,41 @@ a:active {
 	color: #000000;
 }
 
+.top-button {
+	display: inline-block;
+	background-color: #efd234;
+	margin: 30px;
+	color: #000000;
+	font-weight: 400;
+	padding: 10px;
+	border-radius: 200px;
+	border-bottom: 2px solid #efd234;
+	transition: 0.2s opacity;
+}
+
+.top-button:hover {
+	opacity: 0.8;
+	text-decoration: none;
+}
+
+.top-button:visited {
+	background-color: rgba(239, 210, 52, 0.2);
+	color: #2d2e30;
+}
+
+.top-button.contact {
+	display: inline-block;
+	background-color: transparent;
+	color: #efd234;
+	text-transform: uppercase;
+	border: 2px solid #efd234;
+}
+
+.button.contact:hover {
+	background-color: #efd234;
+	color: #000000;
+}
+
 /*Layout styling*/
 
 .container {
