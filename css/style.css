@@ -19,6 +19,7 @@ header {
 	box-shadow: 0px 6px 5px 0px rgba(50, 50, 50, 0.75);
 }
 
+
 * {
 	box-sizing: border-box;
 }
@@ -44,17 +45,17 @@ h4 {
 }
 
 h1 {
-	font-size: 1.55em;
-	font-weight: 700;
-}
-
-h2 {
 	font-size: 1.45em;
 	font-weight: 700;
 }
 
+h2 {
+	font-size: 1.35em;
+	font-weight: 700;
+}
+
 h3 {
-	font-size: 1.25em;
+	font-size: 1.15em;
 	font-weight: 400;
 }
 
@@ -181,8 +182,9 @@ a:active {
 }
 
 .logo {
-	max-width: 150px;
-	padding: 10px o;
+	max-width: 90px;
+	padding: 5px 0;
+	height: auto;
 }
 
 nav > ul {
@@ -223,7 +225,7 @@ nav > ul > li > a:active {
 .navtoggle li .icon {
 	position: absolute;
 	right: 0;
-	top: 2px;
+	top: 15px;
 	font-size: 20px;
 	padding-right: 0;
 }
@@ -253,7 +255,7 @@ nav > ul > li > a:active {
 }
 
 main {
-	padding-top: 79px;
+	padding-top: 87px;
 }
 
 #work h2 {
@@ -350,7 +352,7 @@ border: 1px solid #ffffff;
 	text-align: center;
 }
 
-svg {
+.icons {
 	width: 75px;
 	height: auto;
 }
@@ -441,7 +443,7 @@ Medium devices (640px and larger)
 	}
 
 	main {
-		padding-top: 109px;
+		padding-top: 110px;
 	}
 
 	body {
@@ -622,7 +624,7 @@ Large devices (1024px or larger)
 	}
 
 	main {
-		padding-top: 109px;
+		padding-top: 110px;
 	}
 
 	.skills {
