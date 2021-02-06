@@ -4,6 +4,7 @@ Primary Color (MediumGrey): #2D2E30;
 Secondary Colors (White): #FFFFFF; (DarkGrey): #212124;
 Accent Color(Yellow): #EFD234;
 */
+
 html {
 	scroll-behavior: smooth;
 }
@@ -255,7 +256,7 @@ nav > ul > li > a:active {
 }
 
 main {
-	padding-top: 87px;
+	padding-top: 83px;
 }
 
 #work h2 {
@@ -332,7 +333,7 @@ main {
 	width: 100%;
 }
 
-.project-img{
+.project-img {
 	-webkit-box-shadow: 0px 7px 6px 3px rgba(0, 0, 0, 0.10);
 	-moz-box-shadow: 0px 7px 6px 3px rgba(0, 0, 0, 0.10);
 	box-shadow: 0px 7px 6px 3px rgba(0, 0, 0, 0.10);
@@ -401,9 +402,10 @@ border: 1px solid #ffffff;
 
 .video-container{
 	padding: 10px;
-	margin: 35px;
+	margin: 20px 20px;
 	border: 1px solid #ffffff;
 }
+
 
 /* ==============================
 Medium devices (640px and larger)
