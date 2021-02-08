@@ -332,6 +332,32 @@ main {
 	margin: 20px 20px;
 	border: 1px solid #ffffff;
 }
+
+#name {
+	width: 90%;
+	height: 50px;
+	display: block;
+	margin: 20px;
+}
+
+#email {
+	width: 90%;
+	height: 50px;
+	display: block;
+	margin: 20px;
+}
+
+#message {
+	display: block;
+	width: 90%;
+	height: 200px;
+	margin: 20px;
+}
+
+#submit {
+	margin: 20px;
+}
+
 /* ==============================
 Medium devices (640px and larger)
 ================================= */
