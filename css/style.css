@@ -105,8 +105,15 @@ a:active {
 }
 
 .button:hover {
+  background-color: #efd234;
+  color: #2D2E30;
   opacity: 0.8;
   text-decoration: none;
+}
+
+.img-link:hover {
+  background-color: #212124;
+  opacity: 0.9;
 }
 
 .button:visited {
@@ -318,6 +325,12 @@ main {
 }
 
 #chatty {
+  background-color: #2d2e30;
+  display: inline-block;
+  width: 100%;
+}
+
+#otdesign {
   background-color: #2d2e30;
   display: inline-block;
   width: 100%;
