@@ -282,6 +282,9 @@ main {
 .copyright {
   text-align: center;
 }
+.imp {
+  text-align: center;
+}
 
 #about {
   display: inline-block;
