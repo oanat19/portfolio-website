@@ -282,9 +282,6 @@ main {
 .copyright {
   text-align: center;
 }
-.imp {
-  text-align: center;
-}
 
 #about {
   display: inline-block;
@@ -374,6 +371,10 @@ main {
 }
 
 .center {
+  text-align: center;
+}
+
+.imp {
   text-align: center;
 }
 
